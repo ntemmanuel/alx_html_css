@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+   height: 100%;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 15px; 
+    font-family:  "Source Sans 3", sans-serif;
+}
+
+.logo {
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.navbar {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 100px; /* Optional: adjust the right padding as needed */
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Displays list items horizontally */
+    margin: 0 15px; /* Adds horizontal space between list items */
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+    padding: 10px; 
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+}
+
+.below {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    font-family:  "Source Sans 3", sans-serif;
+    margin-top: 1px;
+    padding-top: 0px;
+}
+
+.below span {
+    margin: 0 20px; 
+}
+
+
+.button {
+        display: block;
+        margin: 0 auto;
+        background-color: #C271FF;
+        color: #fff;
+        width: 162px;
+        height: 30px;
+        border: none;
+        border-radius: 25px;
+        text-align: center;
+        margin-top: 20px;
+        font-family:  "Source Sans 3", sans-serif;
+    }
+    
+    h2{
+        text-align: center;
+        padding-top: 200px;
+        color: #fff;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+    .learn span{
+        color: #C271FF;
+        font-family:  "Source Sans 3", sans-serif;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: space-between; /* Space between items */
+        align-items: center; /* Align items vertically centered */
+        margin-top: 0px; 
+        margin-inline: 50px;
+        width: 1009px;
+        height: 237px;
+        top: 758px;
+        left:217px;
+        padding-top: 50px;
+        padding-left: 110px;
+        padding-right: 110px;
+        gap: 30px;
+    }
+    
+    .image-container div {
+        text-align: center;
+    }
+    
+    .image-container img {
+        max-width: 100%; /* Ensure images are responsive */
+        height: auto;
+    }
+    
+    .image-container h3 {
+        font-family: "Source Sans 3", sans-serif;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .image-container p {
+        font-family: "Source Sans 3", sans-serif;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .testimony1{
+        background-color: #C271FF;
+        background-size: contain;
+        display: flex;
+        justify-content: space-between; /* Space between items */
+        align-items: center; /* Align items vertically centered */
+        padding-left: 250px;
+        gap: 30px;
+        color: #fff;
+        font-family: "Source Sans 3", sans-serif;
+        width: 1120px;
+        height: 250px;
+        top: 1093px;
+
+    }
+
+    blockquote{
+        padding-right: 340px;
+    }
+        
+    .testimony1 img{
+        
+    }
+    
