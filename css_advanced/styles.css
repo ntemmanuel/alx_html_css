@@ -1,13 +1,20 @@
-*{
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+* {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
 }
 .banner{
     background-image: url(images/Object.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-   height: 100%;
+    height: 100%;
 }
 
 
@@ -85,42 +92,44 @@ h1{
         font-family:  "Source Sans 3", sans-serif;
     }
     
-    h2{
-        text-align: center;
-        padding-top: 200px;
-        color: #fff;
-        margin-bottom: 0px;
-        padding-bottom: 20px;
-    }
-    .learn span{
-        color: #C271FF;
-        font-family:  "Source Sans 3", sans-serif;
-    }
+.learn{
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+.learn span{
+    color: #C271FF;
+    font-family:  "Source Sans 3", sans-serif;
+}   
 
-    .image-container {
-        display: flex;
-        justify-content: space-between; /* Space between items */
-        align-items: center; /* Align items vertically centered */
-        margin-top: 0px; 
-        margin-inline: 50px;
-        width: 1009px;
-        height: 237px;
-        top: 758px;
-        left:217px;
-        padding-top: 50px;
-        padding-left: 110px;
-        padding-right: 110px;
-        gap: 30px;
-    }
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Align items vertically centered */
+    margin-top: 0px; 
+    margin-inline: 50px;
+    width: 1009px;
+    height: 237px;
+    top: 758px;
+    left:217px;
+    padding: 20px 30px ;
+    margin: 30px 200px; 
     
-    .image-container div {
-        text-align: center;
-    }
+}
+
+.image-container div {
+    text-align: center;
+}
     
     .image-container img {
-        max-width: 100%; /* Ensure images are responsive */
+        max-width: 100%; 
         height: auto;
+        margin-inline: 50px;
+
     }
+    
     
     .image-container h3 {
         font-family: "Source Sans 3", sans-serif;
@@ -130,7 +139,7 @@ h1{
     }
     
     .image-container p {
-        font-family: "Source Sans 3", sans-serif;
+        font-family:  "Source Sans 3", sans-serif;
         color: #fff;
         font-size: 16px;
         font-weight: 400;
@@ -145,17 +154,167 @@ h1{
         gap: 30px;
         color: #fff;
         font-family: "Source Sans 3", sans-serif;
-        width: 1120px;
-        height: 250px;
+        width: 1498px;
+        height: 280px;
         top: 1093px;
-
     }
 
     blockquote{
-        padding-right: 340px;
-    }
-        
-    .testimony1 img{
-        
+        padding-right: 350px;
+        font-family:  "Source Sans 3", sans-serif;
     }
     
+   
+    .popular {
+        text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+        padding-top: 50px; /* Adjust this value as needed */
+        padding-bottom: 20px; /* Adjust this value as needed */
+        color: black;
+        margin-bottom: 20px; /* Adjust this value as needed */
+        background-color:#fff/* Ensure visibility with a background color */
+        
+    }
+
+    .popular span {
+        color: #C271FF;
+    }
+    
+
+    .tutorial{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 190px;
+    }
+  h4{
+    color: #C271FF;
+    margin-left: 90px;
+    margin-top: -40px;
+  }
+
+  
+   
+   .rating{
+    margin-top: 30px;
+   }
+   .min{
+    color: #C271FF;
+    margin-left: 200px;
+    margin-top: -22px;
+   }
+    
+    .membership{
+        background-color: #071629;
+        width: 1498px;
+        height: 502px;
+        font-family: "Source Sans 3", sans-serif;
+    }
+
+    h2{
+        padding-top:40px ;
+        text-align: center;
+        
+    }
+
+    h2 span{
+        color: #C271FF;
+        
+    }
+
+    .Lorem{
+        display: flex;
+        color: #fff;
+        justify-content: center;
+        gap: 100px;
+        margin-top:30px ;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    p{
+        margin-top:20px ;
+        margin-left: -30px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    img{
+        margin-left: 30px;
+    }
+
+    h3{
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    button{
+        margin: 120px 650px;
+        background-color: #C271FF;
+        color: #fff;
+        width: 162px;
+        height: 30px;
+        border: none;
+        border-radius: 25px;
+        font-family: "Source Sans 3", sans-serif;
+    }
+
+    .questions{
+        background-color: #fff;
+        width: 100%;
+        height: 707px;
+        color: #071629;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+        
+    }
+
+    .question-block-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+       
+        width: 100%;
+        
+    }
+
+    .question-block {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 12px;
+    }
+
+     
+
+    .Title h2{
+        color: #071629;
+
+    }
+    .footer {
+        background-color: #071629;
+        height: 249px;
+    }
+
+    .logo{
+        padding-top: 50px;
+        margin-left: 40px;
+
+    }
+    p{
+        color: #fff;
+        align-content: center;
+        padding-left: 600px;
+    }
+
+.icon {
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    margin: 24px
+}
+
+.icon svg {
+    transform: scale(2.5)
+    
+}
